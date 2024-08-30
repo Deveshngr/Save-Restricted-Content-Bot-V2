@@ -36,13 +36,13 @@ async def subscribe(app, message):
       try:
          user = await app.get_chat_member(update_channel, message.from_user.id)
          if user.status == "kicked":
-            await message.reply_text("Sorry Sir, You are Banned. Contact -- @devggn")
+            await message.reply_text("Sorry Sir, You are Banned. Contact -- @obito_10_2")
             return 1
       except UserNotParticipant:
-         await message.reply_photo(photo="https://graph.org/file/d44f024a08ded19452152.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
+         await message.reply_photo(photo="https://graph.org/Fsub-08-30",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
          return 1
       except Exception:
-         await message.reply_text("Something Went Wrong. Contact us @devggn...")
+         await message.reply_text("Something Went Wrong. Contact us @obito_10_2...")
          return 1
 
 
@@ -89,7 +89,7 @@ PROGRESS_BAR = """\n
 **__Bytes__** : {0}%
 **__Speed__** : {3}/s
 **__Time__** : {4}\n\n
-**__Powered by [Team SPY](https://t.me/devggn)__**
+**__Powered by [Team Medusa](https://t.me/+s04d0ObheJBmZWI1)__**
 """
 
 
