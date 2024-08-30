@@ -86,10 +86,10 @@ async def get_seconds(time_string):
 
 PROGRESS_BAR = """\n
 **__Completed__** : {1}/{2}
-**__Bytes__** : {0}%
+**__Done__** : {0}%
 **__Speed__** : {3}/s
 **__Time__** : {4}\n\n
-**__Powered by [Team Medusa](https://t.me/+s04d0ObheJBmZWI1)__**
+**__Powered by [Team Medusa](https://t.me/+qbmDDO9glldiZThl)__**
 """
 
 
