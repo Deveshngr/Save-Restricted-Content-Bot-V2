@@ -39,10 +39,10 @@ async def subscribe(app, message):
             await message.reply_text("Sorry Sir, You are Banned. Contact -- @obito_10_2")
             return 1
       except UserNotParticipant:
-         await message.reply_photo(photo="https://graph.org/Fsub-08-30",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
+         await message.reply_photo(photo="https://graph.org/FSub-09-06",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
          return 1
       except Exception:
-         await message.reply_text("Something Went Wrong. Contact us @obito_10_2...")
+         await message.reply_text("Something Went Wrong. Contact us @hey_roger")
          return 1
 
 
@@ -89,7 +89,7 @@ PROGRESS_BAR = """\n
 **__Done__** : {0}%
 **__Speed__** : {3}/s
 **__Time__** : {4}\n\n
-**__Powered by [Team Medusa](https://t.me/+qbmDDO9glldiZThl)__**
+**__Powered by [Team Anyverselinks](https://t.me/+EtYts5-wM71kM2Q1)__**
 """
 
 
